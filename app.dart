@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Hello, World!");
     }
 }
-// main.dart
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +33,7 @@ class AgendamedApp extends StatelessWidget {
 
 public class AgendamedAppImpl extends AgendamedApp { }
 
-// 1. Login Screen
+
 class LoginScreen extends StatelessWidget {
     final TextEditingController emailController = TextEditingController();
     final TextEditingController passwordController = TextEditingController();
@@ -75,7 +75,6 @@ class LoginScreen extends StatelessWidget {
     }
 }
 
-// 2. Register Screen
 class RegisterScreen extends StatelessWidget {
     final nameController = TextEditingController();
     final dobController = TextEditingController();
@@ -105,7 +104,7 @@ class RegisterScreen extends StatelessWidget {
     }
 }
 
-// 3. Recover Password - Step 1
+
 class RecoverStep1 extends StatelessWidget {
     final emailController = TextEditingController();
     final phoneController = TextEditingController();
@@ -132,7 +131,7 @@ class RecoverStep1 extends StatelessWidget {
     }
 }
 
-// 4. Recover Password - Step 2
+
 class RecoverStep2 extends StatelessWidget {
     final newPasswordController = TextEditingController();
     final confirmPasswordController = TextEditingController();
@@ -156,7 +155,7 @@ class RecoverStep2 extends StatelessWidget {
     }
 }
 
-// 5. Home Screen
+
 class HomeScreen extends StatelessWidget {
     @override
     Widget build(BuildContext context) {
@@ -188,7 +187,7 @@ class HomeScreen extends StatelessWidget {
     }
 }
 
-// 6. Medication Screen
+
 class MedicationScreen extends StatelessWidget {
     final medController = TextEditingController();
 
@@ -218,7 +217,7 @@ class MedicationScreen extends StatelessWidget {
     }
 }
 
-// 7. Delete Account Screen
+
 class DeleteAccountScreen extends StatelessWidget {
     final emailController = TextEditingController();
     final passwordController = TextEditingController();
